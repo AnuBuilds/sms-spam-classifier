@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+spam_model.pkl
+data/
