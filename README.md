@@ -90,3 +90,14 @@ to reload the cached model.
 
 Built as a learning project with AI-assisted guidance.
 The dataset is provided by its original contributors through UCI.
+
+## Sample predictions
+
+| SMS input | Model prediction |
+|---|---|
+| Hey, are we still meeting at the library tomorrow at 10? | Not spam |
+| Congratulations! You have won a FREE cash prize. Call now to claim your reward! | Spam |
+| Your coffee is free today. I already paid for it. See you soon! | Not spam |
+
+These examples demonstrate how the app works. The experiment results
+above summarize performance on the evaluation split.
