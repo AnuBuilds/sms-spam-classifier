@@ -1,5 +1,19 @@
+# Python environment and generated files
 .venv/
+venv/
 __pycache__/
 *.pyc
-spam_model.pkl
+
+# Local dataset and generated model
 data/
+spam_model.pkl
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local secrets
+.env
